@@ -1,7 +1,6 @@
 ---
 layout: default
 title: About
-permalink: /about/
 ---
 
 I love finding simple, elegant solutions to problems small and large. If I'm not programming you'll probably find me playing drums, out taking photos or learning something new about math or machine leaning.
