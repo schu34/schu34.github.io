@@ -4,29 +4,26 @@ title: Projects
 permalink: /projects/
 ---
 
-### [Project 1](https://github.com/tux4kids/tuxmania) 
-Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
+### Tuneweb - December 2016
+
+I made Tuneweb to help me find new music to listen to. It uses [d3](https://d3js.org/) and the [last.fm api](http://www.last.fm/api) to visualize neighborhoods of similar artists.
+
+[demo](https://guarded-badlands-72055.herokuapp.com/) /  [source](https://github.com/schu34/Tuneweb)
+
 
 ***
 
-### [Project 2](https://github.com/AkshayAgarwal007/Moodly)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu dolor placerat varius. Vivamus eros augue, consequat id scelerisque nec, fringilla in est. Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
+### lobbyboxer.com
 
-Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
+Website for local St. Louis band Lobby Boxer. I designed and coded all parts of the site. It features a responsive design, automatic fetching of photo using the [Facebook Graph API]() and an audio player using the [Web Audio API]().
+
+[site](http://lobbyboxer.com) /
+[source](https://github.com/schu34/lobby-boxer)
 
 ***
 
-## Other Projects
-
-### This Could Be Another Project Name
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu dolor placerat varius. Vivamus eros augue, consequat id scelerisque nec, fringilla in est. Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu dolor placerat varius. Vivamus eros augue, consequat id scelerisque nec, fringilla in est. Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
-   
-### This Could Be Yet Another Project Name
-
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu dolor placerat varius. Vivamus eros augue, consequat id scelerisque nec, fringilla in est. Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
 
 
 ## Contact me
 
-[agarwal.akshay.akshay8@gmail.com](mailto:agarwal.akshay.akshay8@gmail.com)
+[matt.schupack@gmail.com](mailto:matt.schupack@gmail.com)
