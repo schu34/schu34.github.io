@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-### Tuneweb - December 2016
+### Tuneweb | December 2016
 
 I made Tuneweb to help me find new music to listen to. It uses [d3](https://d3js.org/) and the [last.fm api](http://www.last.fm/api) to visualize neighborhoods of similar artists.
 
@@ -13,7 +13,7 @@ I made Tuneweb to help me find new music to listen to. It uses [d3](https://d3js
 
 ***
 
-### lobbyboxer.com
+### lobbyboxer.com | December 2015 - February 2016
 
 Website for local St. Louis band Lobby Boxer. I designed and coded all parts of the site. It features a responsive design, automatic fetching of photo using the [Facebook Graph API]() and an audio player using the [Web Audio API]().
 
