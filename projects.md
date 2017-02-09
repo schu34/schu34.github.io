@@ -4,11 +4,11 @@ title: Matthew Schupack | Projects
 permalink: /projects/
 ---
 
-### Tuneweb | December 2016
+### Tuneweb | January 2017 - present
 
 I made Tuneweb to help me find new music to listen to. It uses [d3](https://d3js.org/) and the [last.fm api](http://www.last.fm/api) to visualize neighborhoods of similar artists.
 
-[demo](https://guarded-badlands-72055.herokuapp.com/) /  [source](https://github.com/schu34/Tuneweb)
+[prototype](https://guarded-badlands-72055.herokuapp.com/) /  [source](https://github.com/schu34/Tuneweb)
 
 
 ***
