@@ -8,7 +8,7 @@ permalink: /projects/
 
 I made Tuneweb to help me find new music to listen to. It uses [d3](https://d3js.org/) and the [last.fm api](http://www.last.fm/api) to visualize neighborhoods of similar artists.
 
-[prototype](https://guarded-badlands-72055.herokuapp.com/) /  [source](https://github.com/schu34/Tuneweb)
+[prototype](http://sample-env.s2izimy4bi.us-west-2.elasticbeanstalk.com/) /  [source](https://github.com/schu34/Tuneweb)
 
 
 ***
