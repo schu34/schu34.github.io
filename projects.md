@@ -17,7 +17,7 @@ I made Tuneweb to help me find new music to listen to. It uses [d3](https://d3js
 
 Website for local St. Louis band Lobby Boxer. I designed and coded all parts of the site. It features a responsive design, automatic fetching of photos using the [Facebook Graph API](https://developers.facebook.com/docs/graph-api) and an audio player using the [Web Audio API ](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
 
-[site](http://lobbyboxer.com) /
+[site](https://arcane-meadow-6527.herokuapp.com/) /
 [source](https://github.com/schu34/lobby-boxer)
 
 ***
