@@ -8,7 +8,6 @@ name: Matthew Schupack
 # Short bio or description (displayed in the header)
 description: Computer Science Student at Webster University
 
-
 #
 # Flags below are optional
 #
@@ -35,11 +34,11 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-67078398-3
 
 # Your website URL (e.g. http://akshayagarwal007.github.io)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http://schu34.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -79,3 +78,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
