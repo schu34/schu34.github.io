@@ -3,7 +3,7 @@ layout: default
 title: Matthew Schupack | About
 ---
 # About
-I love finding simple, elegant solutions to problems small and large. If I'm not programming you'll probably find me playing drums, out taking photos or learning something new about machine leaning.
+I'm a full stack web developer with strong experience transforming ideas into flexible maintainable software. I've worked on everything from hacking together proof of concept prototypes in an afternoon to architecting and building complex, production grade software over many months. If I’m not coding (which is rare) you’ll probably find me performing around Brooklyn with my band, Violets are Wet, or trying a new restaurant with my girlfriend.
 
 ### Education
 

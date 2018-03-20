@@ -6,7 +6,7 @@
 name: Matthew Schupack
 
 # Short bio or description (displayed in the header)
-description: Computer Science Student at Webster University
+description: Full Stack Engineer
 
 #
 # Flags below are optional
@@ -24,7 +24,7 @@ footer-links:
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:
-  stackoverflow: # your stackoverflow profile, e.g. "users/3807565/akshay"
+  stackoverflow: users/3294012/schu34 # your stackoverflow profile, e.g. "users/3807565/akshay"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
