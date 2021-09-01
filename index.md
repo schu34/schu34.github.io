@@ -3,7 +3,7 @@ layout: default
 title: Matthew Schupack | About
 ---
 # About
-I'm a full stack web developer with strong experience transforming ideas into flexible maintainable software. I've worked on everything from hacking together proof of concept prototypes in an afternoon to architecting and building complex, production grade software over many months. If I’m not coding (which is rare) you’ll probably find me performing around Brooklyn with my band, Violets are Wet, or trying a new restaurant with my girlfriend.
+I'm a full stack web developer with strong experience transforming ideas into flexible maintainable software. I've worked on everything from hacking together proof of concept prototypes in an afternoon to architecting and building complex, production grade software over many months (you'd be hard-pressed to sign up for an amex credit card without using some code I wrote). If I’m not coding you’ll probably find me playing music or baking some sourdough bread.
 
 ### Education
 
