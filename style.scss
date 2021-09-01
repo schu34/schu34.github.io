@@ -289,3 +289,25 @@ footer {
 
 @import "highlights";
 @import "jekyll-mono";
+
+
+.image-container{
+  display: flex;
+  flex-wrap: wrap;
+   & + .image-container{
+     margin-top:15px;
+   }
+
+  img{
+    max-width: calc(50% - 7.5px);
+    width:auto;
+    height: auto;
+  }
+
+  img + img{
+    margin-left: 15px;
+  }
+
+
+
+}
