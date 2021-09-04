@@ -1,6 +1,6 @@
 My personal Website. based on [Jekyll-Mono](https://github.com/AkshayAgarwal007/Jekyll-Mono) by [Akshay Agarwal](https://github.com/AkshayAgarwal007)
 
-## running locally
+## Running locally
 
 1. install jekyll: 
 ```
