@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Boy CPU Opcode Tables - Dark Mode</title>
+    <link rel="stylesheet" href="styles.css?v=3">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="topbar" aria-label="Primary">
+        <a class="brand" href="https://gbdev.io/gb-opcodes//optables/octal">GBDocs</a>
+        <div class="nav-links">
+          <a href="https://rgbds.gbdev.io/docs/gbz80.7">Opcode reference</a>
+          <a href="https://github.com/gbdev/awesome-gbdev">Awesome GBDev List</a>
+          <a href="https://github.com/gbdev/gb-opcodes">GitHub</a>
+        </div>
+        <button class="theme-toggle" type="button" aria-pressed="true" title="Toggle dark mode">
+          <span aria-hidden="true">D</span>
+          <span>Dark</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div>
+          <p class="eyebrow">Octal opcode table</p>
+          <h1>Game Boy CPU (SM83) instruction set</h1>
+        </div>
+        <a class="json-link" href="opcodes.json">JSON</a>
+      </section>
+
+      <section class="legend-strip" aria-label="Instruction categories">
+        <span class="category misc">Misc / control</span>
+        <span class="category jump">Jumps / calls</span>
+        <span class="category load8">8-bit loads</span>
+        <span class="category load16">16-bit loads</span>
+        <span class="category alu8">8-bit ALU</span>
+        <span class="category alu16">16-bit ALU</span>
+        <span class="category bit">Rotate / bit</span>
+      </section>
+
+      <section class="opcode-section" aria-labelledby="unprefixed-heading">
+        <div class="section-title">
+          <h2 id="unprefixed-heading">Unprefixed</h2>
+          <p>Base opcodes, arranged in octal rows and columns.</p>
+        </div>
+        <div class="table-wrap" id="unprefixed-table"></div>
+      </section>
+
+      <section class="opcode-section" aria-labelledby="prefixed-heading">
+        <div class="section-title">
+          <h2 id="prefixed-heading">Prefixed ($CB $xx)</h2>
+          <p>CB-prefixed rotate, shift, bit, reset, and set instructions.</p>
+        </div>
+        <div class="table-wrap" id="prefixed-table"></div>
+      </section>
+
+      <section class="notes" aria-labelledby="notes-heading">
+        <h2 id="notes-heading">Notes</h2>
+        <dl>
+          <div><dt>Z</dt><dd>Zero flag</dd></div>
+          <div><dt>N</dt><dd>Subtract flag</dd></div>
+          <div><dt>H</dt><dd>Half carry flag</dd></div>
+          <div><dt>C</dt><dd>Carry flag</dd></div>
+          <div><dt>0</dt><dd>The flag is reset</dd></div>
+          <div><dt>1</dt><dd>The flag is set</dd></div>
+          <div><dt>-</dt><dd>The flag is left untouched</dd></div>
+        </dl>
+        <p>Conditional calls and returns show taken/not-taken timings separated by a slash. Instruction durations are displayed in T-states.</p>
+      </section>
+    </main>
+
+    <script src="app.js?v=3"></script>
+  </body>
+</html>
