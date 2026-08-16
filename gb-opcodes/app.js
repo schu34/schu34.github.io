@@ -157,7 +157,9 @@ function formatInstruction(opcode) {
 }
 
 function formatOperand(operand) {
-  return operand.immediate ? operand.name : `[${operand.name}]`;
+  const suffix = operand.increment ? "+" : operand.decrement ? "-" : "";
+  const name = `${operand.name}${suffix}`;
+  return operand.immediate ? name : `[${name}]`;
 }
 
 function formatBinaryOpcode(key) {
