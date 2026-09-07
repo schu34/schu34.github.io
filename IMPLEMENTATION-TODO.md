@@ -11,4 +11,4 @@
 - [x] Add an accessible Tools dropdown to the shared Jekyll navigation.
 - [x] Style the dropdown for desktop and mobile layouts.
 - [x] Verify both tool links and keyboard behavior.
-- [ ] Commit and push the navigation update.
+- [x] Commit and push the navigation update.
