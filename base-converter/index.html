@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Decimal / Hex / Binary Converter</title>
+    <link rel="stylesheet" href="styles.css?v=1">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="topbar" aria-label="Primary">
+        <a class="brand" href="../">schu34.github.io</a>
+        <div class="nav-links">
+          <a href="../gb-opcodes/">GB opcodes</a>
+          <a href="../projects/">Projects</a>
+          <a href="https://github.com/schu34/schu34.github.io">GitHub</a>
+        </div>
+        <button class="theme-toggle" type="button" aria-pressed="true" title="Toggle dark mode">
+          <span aria-hidden="true">D</span>
+          <span>Dark</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Number base calculator</p>
+          <h1 id="page-title">Decimal, hexadecimal, and binary</h1>
+          <p class="lede">Type a whole number in any field and the other two values will follow.</p>
+        </div>
+        <span class="precision-badge">Exact integer conversion</span>
+      </section>
+
+      <section class="converter-card" aria-labelledby="converter-heading">
+        <div class="section-title">
+          <div>
+            <h2 id="converter-heading">Convert a value</h2>
+            <p>Prefixes like <code>0x</code> and <code>0b</code> are optional.</p>
+          </div>
+          <span class="whole-number-note">Non-negative integers</span>
+        </div>
+
+        <div class="number-fields">
+          <label class="number-field" for="decimal-input">
+            <span class="field-heading">
+              <span class="field-title"><span class="base-mark">10</span>Decimal</span>
+              <span class="base-label">base 10</span>
+            </span>
+            <input
+              id="decimal-input"
+              name="decimal"
+              type="text"
+              inputmode="numeric"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="1,000,000"
+              aria-describedby="decimal-help"
+            >
+            <span class="field-help" id="decimal-help">Digits grouped with commas</span>
+          </label>
+
+          <label class="number-field" for="hex-input">
+            <span class="field-heading">
+              <span class="field-title"><span class="base-mark">16</span>Hexadecimal</span>
+              <span class="base-label">base 16</span>
+            </span>
+            <input
+              id="hex-input"
+              name="hexadecimal"
+              type="text"
+              autocapitalize="characters"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="0F FF"
+              aria-describedby="hex-help"
+            >
+            <span class="field-help" id="hex-help">Hex digits grouped in bytes</span>
+          </label>
+
+          <label class="number-field" for="binary-input">
+            <span class="field-heading">
+              <span class="field-title"><span class="base-mark">2</span>Binary</span>
+              <span class="base-label">base 2</span>
+            </span>
+            <input
+              id="binary-input"
+              name="binary"
+              type="text"
+              inputmode="numeric"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="0000 0000"
+              aria-describedby="binary-help"
+            >
+            <span class="field-help" id="binary-help">Bits grouped in nibbles</span>
+          </label>
+        </div>
+
+        <p class="status" id="conversion-status" role="status" aria-live="polite">Enter a whole, non-negative number.</p>
+      </section>
+
+      <section class="notes" aria-labelledby="format-heading">
+        <h2 id="format-heading">Formatting at a glance</h2>
+        <dl>
+          <div>
+            <dt>Decimal</dt>
+            <dd>1,000,000</dd>
+          </div>
+          <div>
+            <dt>Hexadecimal</dt>
+            <dd>0F FF</dd>
+          </div>
+          <div>
+            <dt>Binary</dt>
+            <dd>0000 1111 1111 1111</dd>
+          </div>
+        </dl>
+        <p>Hexadecimal values are shown in byte-sized groups. Binary values are shown in four-bit groups with byte-aligned padding.</p>
+      </section>
+    </main>
+
+    <script src="app.js?v=1"></script>
+  </body>
+</html>
