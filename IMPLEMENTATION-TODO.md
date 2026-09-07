@@ -8,7 +8,7 @@
 
 # Main site tools navigation
 
-- [ ] Add an accessible Tools dropdown to the shared Jekyll navigation.
-- [ ] Style the dropdown for desktop and mobile layouts.
-- [ ] Verify both tool links and keyboard behavior.
+- [x] Add an accessible Tools dropdown to the shared Jekyll navigation.
+- [x] Style the dropdown for desktop and mobile layouts.
+- [x] Verify both tool links and keyboard behavior.
 - [ ] Commit and push the navigation update.
